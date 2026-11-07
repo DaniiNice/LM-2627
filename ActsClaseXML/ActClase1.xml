@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version = "1.0" encoding = "UTF-8"?>
 <persona>
     <nombre></nombre>
@@ -8,4 +9,16 @@
         <anio></anio>
     </fecha-de-nacimiento>
     <ciudad></ciudad>
+=======
+<?xml version = "1.0" encoding = "UTF-8"?>
+<persona>
+    <nombre></nombre>
+    <mujer></mujer>
+    <fecha-de-nacimiento>
+        <dia></dia>
+        <mes></mes>
+        <anio></anio>
+    </fecha-de-nacimiento>
+    <ciudad></ciudad>
+>>>>>>> dca3970e2d8af08ee0ae9cfeebf1ab95b3c2b226
 </persona>

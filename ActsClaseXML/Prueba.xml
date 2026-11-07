@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <empresa>
     <empleado>
@@ -11,4 +12,19 @@
             <zip>41008</zip>
         </direccion>
     </empleado>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado>
+        <primer_nombre>Daniel</primer_nombre>
+        <apellido>Ferreira Castaño</apellido>
+        <numero_contacto>641795858</numero_contacto>
+        <correo_electronico>marcos45102008@gmail.com</correo_electronico>
+        <direccion>
+            <ciudad>Sevilla</ciudad>
+            <estado>Sevilla</estado>
+            <zip>41008</zip>
+        </direccion>
+    </empleado>
+>>>>>>> dca3970e2d8af08ee0ae9cfeebf1ab95b3c2b226
 </empresa>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <artistas>
     <cantante>
@@ -37,3 +38,44 @@
         </albums>
     </cantante>
 </artistas>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<artistas>
+    <cantante>
+        <nombre>Michael Jackson</nombre>
+        <genero>Pop</genero>
+        <albums>
+            <album>Thriller</album>
+            <album>Bad</album>
+            <album>Off the Wall</album>
+        </albums>
+    </cantante>
+    <cantante>
+        <nombre>Beyoncé</nombre>
+        <genero>RB</genero>
+        <albums>
+            <album>Lemonade</album>
+            <album>4</album>
+            <album>Dangerously in Love</album>
+        </albums>
+    </cantante>
+    <cantante>
+        <nombre>Elvis Presley</nombre>
+        <genero>Rock 'n' Roll</genero>
+        <albums>
+            <album>Elvis Presley</album>
+            <album>Blue Hawaii</album>
+            <album>Love Me Tender</album>
+        </albums>
+    </cantante>
+    <cantante>
+        <nombre>Adele</nombre>
+        <genero>Pop</genero>
+        <albums>
+            <album>21</album>
+            <album>25</album>
+            <album>19</album>
+        </albums>
+    </cantante>
+</artistas>
+>>>>>>> dca3970e2d8af08ee0ae9cfeebf1ab95b3c2b226

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -59,4 +60,67 @@
         <input type="reset" value="Borrar">
     </form>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - IES TG</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <a href="index.html">← Volver al inicio</a>
+    <p>Rellena el formulario y te responderemos lo antes posible.</p>
+
+    <form method="post">
+        <fieldset>
+            <legend>Datos personales</legend><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="30"><br><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="apellido" size="40"><br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" size="40"><br><br>
+            <label for="telef">Teléfono:</label>
+            <input type="tel" id="telef" name="telef" maxlength="9">
+        </fieldset>
+
+        <fieldset>
+            <legend>Tu consulta</legend><br>
+
+            <label for="ciclos">Ciclo que te interesa:</label>
+            <select name="ciclos" id="ciclos">
+                <option value="DAM">DAM</option>
+                <option value="DAW">DAW</option>
+                <option value="ASIR">ASIR</option>
+                <option value="SMR">SMR</option>
+            </select>
+            <br><br>
+
+            <label for="consulta">Tipo de consulta:</label>
+            <input type="radio" name="consulta" id="consulta" value="Informacion">Información
+            <input type="radio" name="consulta" id="consulta" value="Matricula">Matrícula
+            <input type="radio" name="consulta" id="consulta" value="otros">Otra
+            <br><br>
+
+            <label for="conocido">¿Cómo nos has conocido?</label>
+            <input type="checkbox" id="conocido" value="Internet">Internet
+            <input type="checkbox" id="conocido" value="Amigos">Amigos
+            <input type="checkbox" id="conocido" value="RedSocial">Redes sociales
+            <br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" cols="50" rows="5"></textarea>
+            <br><br>
+        </fieldset>
+
+        <input type="checkbox">Acepto la politica de privacidad
+        <br><br>
+        <input type="submit">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+>>>>>>> dca3970e2d8af08ee0ae9cfeebf1ab95b3c2b226
 </html>
