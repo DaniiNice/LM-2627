@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<bibliotecas>
+    <biblioteca ciudad="Sevilla" nombre="Biblioteca Pública Sevilla"> 
+        <libros-de-informatica>
+                <libro isbn="978-84-415-3840-5">
+                    <titulo></titulo>
+                    <autor></autor>
+                    <anio></anio>
+                    <editorial></editorial>
+                </libro>
+                <libro isbn="978-84-267-2856-2">
+                    <titulo></titulo>
+                    <autor></autor>
+                    <anio></anio>
+                    <editorial></editorial>
+                </libro>
+        </libros-de-informatica>
+    </biblioteca>
+    <biblioteca ciudad="Málaga" nombre="Biblioteca Pública Málaga"> 
+        <libros-de-informatica>
+                <libro>
+                    <titulo></titulo>
+                    <autor></autor>
+                    <anio></anio>
+                    <editorial></editorial>
+                </libro>
+                <libro>
+                    <titulo></titulo>
+                    <autor></autor>
+                    <anio></anio>
+                    <editorial></editorial>
+                </libro>
+        </libros-de-informatica>
+    </biblioteca>
+    <biblioteca ciudad="Granada" nombre="Biblioteca Pública Granada"> 
+        <libros-de-informatica>
+                <libro>
+                    <titulo></titulo>
+                    <autor></autor>
+                    <anio></anio>
+                    <editorial></editorial>
+                </libro>
+                <libro>
+                    <titulo></titulo>
+                    <autor></autor>
+                    <anio></anio>
+                    <editorial></editorial>
+                </libro>
+        </libros-de-informatica>
+    </biblioteca>
+</bibliotecas>
