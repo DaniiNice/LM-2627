@@ -1,154 +1,146 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fiesta disfraces</title>
-</head>
-<body bgcolor="#2A2A4E" text="#FFFFFF">
+  </head>
+  <body bgcolor="#2A2A4E" text="#FFFFFF">
     <h1 align="center">Invitación a mi Fiesta de Disfraces!</h1>
-    <p align="center">Rellena este formulario para organizar la mejor fiesta del año.</p>
+    <p align="center">
+      Rellena este formulario para organizar la mejor fiesta del año.
+    </p>
 
-    <table align="center" bgcolor="#3B3B66" cellpadding="20" cellspacing="0" width="600">
-        <tr>
-            <td>
-                <form action="#" method="post">
+    <table
+      align="center"
+      bgcolor="#3B3B66"
+      cellpadding="20"
+      cellspacing="0"
+      width="600"
+    >
+      <tr>
+        <td>
+          <form action="#" method="post">
+            <p>
+              <label for="nombre"><b>Nombre completo:</b></label
+              ><br />
+              <input type="text" id="nombre" name="nombre" required size="40" />
+            </p>
 
-                    <p>
-                        <label for="nombre"><b>Nombre completo:</b></label><br>
-                        <input type="text" id="nombre" name="nombre" required size="40">
-                    </p>
+            <p>
+              <label><b>¿Vas a venir a la fiesta?</b></label
+              ><br />
+              <input
+                type="radio"
+                id="asiste_si"
+                name="asistencia"
+                value="si"
+                checked
+              />
+              <label for="asiste_si">Sí, ahí estaré!</label><br />
+              <input type="radio" id="asiste_no" name="asistencia" value="no" />
+              <label for="asiste_no">No puedo ir</label>
+            </p>
 
-                    <p>
-                        <label><b>¿Vas a venir a la fiesta?</b></label><br>
-                        <input type="radio" id="asiste_si" name="asistencia" value="si" checked>
-                        <label for="asiste_si">Sí, ahí estaré!</label><br>
-                        <input type="radio" id="asiste_no" name="asistencia" value="no">
-                        <label for="asiste_no">No puedo ir</label>
-                    </p>
+            <p>
+              <label for="tematica"
+                ><b>¿Qué temática de disfraces prefieres?</b></label
+              ><br />
+              <select id="tematica" name="tematica">
+                <option value="superheroes">Superhéroes y Villanos</option>
+                <option value="retro">Años 80 / Retro</option>
+                <option value="terror">Terror y Monstruos</option>
+                <option value="cine">Películas y Series</option>
+                <option value="libre">Temática libre (Sorpréndeme!)</option>
+              </select>
+            </p>
 
-                    <p>
-                        <label for="tematica"><b>¿Qué temática de disfraces prefieres?</b></label><br>
-                        <select id="tematica" name="tematica">
-                            <option value="superheroes">Superhéroes y Villanos</option>
-                            <option value="retro">Años 80 / Retro</option>
-                            <option value="terror">Terror y Monstruos</option>
-                            <option value="cine">Películas y Series</option>
-                            <option value="libre">Temática libre (Sorpréndeme!)</option>
-                        </select>
-                    </p>
+            <p>
+              <label for="disfraz"
+                ><b>¿De qué tienes pensado disfrazarte?</b></label
+              ><br />
+              <input
+                type="text"
+                id="disfraz"
+                name="disfraz"
+                placeholder="Ej: Batman, Pirata..."
+              />
+            </p>
 
-                    <p>
-                        <label for="disfraz"><b>¿De qué tienes pensado disfrazarte?</b></label><br>
-                        <input type="text" id="disfraz" name="disfraz" placeholder="Ej: Batman, Pirata...">
-                    </p>
+            <p>
+              <label
+                ><b
+                  >¿Tienes alguna intolerancia o preferencia alimentaria?</b
+                ></label
+              ><br />
+              <input
+                type="checkbox"
+                id="gluten"
+                name="alergias"
+                value="gluten"
+              />
+              <label for="gluten">Intolerancia al gluten</label><br />
+              <input
+                type="checkbox"
+                id="lactosa"
+                name="alergias"
+                value="lactosa"
+              />
+              <label for="lactosa">Intolerancia a la lactosa</label><br />
+              <input
+                type="checkbox"
+                id="vegano"
+                name="alergias"
+                value="vegano"
+              />
+              <label for="vegano">Soy Vegano/a o Vegetariano/a</label><br />
+              <input
+                type="checkbox"
+                id="ninguna"
+                name="alergias"
+                value="ninguna"
+              />
+              <label for="ninguna">Ninguna / Como de todo</label>
+            </p>
 
-                    <p>
-                        <label><b>¿Tienes alguna intolerancia o preferencia alimentaria?</b></label><br>
-                        <input type="checkbox" id="gluten" name="alergias" value="gluten">
-                        <label for="gluten">Intolerancia al gluten</label><br>
-                        <input type="checkbox" id="lactosa" name="alergias" value="lactosa">
-                        <label for="lactosa">Intolerancia a la lactosa</label><br>
-                        <input type="checkbox" id="vegano" name="alergias" value="vegano">
-                        <label for="vegano">Soy Vegano/a o Vegetariano/a</label><br>
-                        <input type="checkbox" id="ninguna" name="alergias" value="ninguna">
-                        <label for="ninguna">Ninguna / Como de todo</label>
-                    </p>
+            <p>
+              <label for="acompanantes"
+                ><b>¿Traes algún acompañante? Indica cuántos (Max 5):</b></label
+              ><br />
+              <input
+                type="number"
+                id="acompanantes"
+                name="acompanantes"
+                min="0"
+                max="5"
+                value="0"
+              />
+            </p>
 
-                    <p>
-                        <label for="acompanantes"><b>¿Traes algún acompañante? Indica cuántos (Max 5):</b></label><br>
-                        <input type="number" id="acompanantes" name="acompanantes" min="0" max="5" value="0">
-                    </p>
+            <p>
+              <label for="comentarios"
+                ><b
+                  >¿Qué música quieres que suene o qué sugerencia tienes?</b
+                ></label
+              ><br />
+              <textarea
+                id="comentarios"
+                name="comentarios"
+                rows="4"
+                cols="50"
+                placeholder="Escribe aquí tus ideas..."
+              ></textarea>
+            </p>
 
-                    <p>
-                        <label for="comentarios"><b>¿Qué música quieres que suene o qué sugerencia tienes?</b></label><br>
-                        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe aquí tus ideas..."></textarea>
-                    </p>
-
-                    <p align="center">
-                        <input type="submit" value="Enviar respuestas y reservar mi sitio!">
-                    </p>
-                </form>
-            </td>
-        </tr>
+            <p align="center">
+              <input
+                type="submit"
+                value="Enviar respuestas y reservar mi sitio!"
+              />
+            </p>
+          </form>
+        </td>
+      </tr>
     </table>
-</body>
-=======
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiesta disfraces</title>
-</head>
-<body bgcolor="#2A2A4E" text="#FFFFFF">
-    <h1 align="center">Invitación a mi Fiesta de Disfraces!</h1>
-    <p align="center">Rellena este formulario para organizar la mejor fiesta del año.</p>
-
-    <table align="center" bgcolor="#3B3B66" cellpadding="20" cellspacing="0" width="600">
-        <tr>
-            <td>
-                <form action="#" method="post">
-
-                    <p>
-                        <label for="nombre"><b>Nombre completo:</b></label><br>
-                        <input type="text" id="nombre" name="nombre" required size="40">
-                    </p>
-
-                    <p>
-                        <label><b>¿Vas a venir a la fiesta?</b></label><br>
-                        <input type="radio" id="asiste_si" name="asistencia" value="si" checked>
-                        <label for="asiste_si">Sí, ahí estaré!</label><br>
-                        <input type="radio" id="asiste_no" name="asistencia" value="no">
-                        <label for="asiste_no">No puedo ir</label>
-                    </p>
-
-                    <p>
-                        <label for="tematica"><b>¿Qué temática de disfraces prefieres?</b></label><br>
-                        <select id="tematica" name="tematica">
-                            <option value="superheroes">Superhéroes y Villanos</option>
-                            <option value="retro">Años 80 / Retro</option>
-                            <option value="terror">Terror y Monstruos</option>
-                            <option value="cine">Películas y Series</option>
-                            <option value="libre">Temática libre (Sorpréndeme!)</option>
-                        </select>
-                    </p>
-
-                    <p>
-                        <label for="disfraz"><b>¿De qué tienes pensado disfrazarte?</b></label><br>
-                        <input type="text" id="disfraz" name="disfraz" placeholder="Ej: Batman, Pirata...">
-                    </p>
-
-                    <p>
-                        <label><b>¿Tienes alguna intolerancia o preferencia alimentaria?</b></label><br>
-                        <input type="checkbox" id="gluten" name="alergias" value="gluten">
-                        <label for="gluten">Intolerancia al gluten</label><br>
-                        <input type="checkbox" id="lactosa" name="alergias" value="lactosa">
-                        <label for="lactosa">Intolerancia a la lactosa</label><br>
-                        <input type="checkbox" id="vegano" name="alergias" value="vegano">
-                        <label for="vegano">Soy Vegano/a o Vegetariano/a</label><br>
-                        <input type="checkbox" id="ninguna" name="alergias" value="ninguna">
-                        <label for="ninguna">Ninguna / Como de todo</label>
-                    </p>
-
-                    <p>
-                        <label for="acompanantes"><b>¿Traes algún acompañante? Indica cuántos (Max 5):</b></label><br>
-                        <input type="number" id="acompanantes" name="acompanantes" min="0" max="5" value="0">
-                    </p>
-
-                    <p>
-                        <label for="comentarios"><b>¿Qué música quieres que suene o qué sugerencia tienes?</b></label><br>
-                        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe aquí tus ideas..."></textarea>
-                    </p>
-
-                    <p align="center">
-                        <input type="submit" value="Enviar respuestas y reservar mi sitio!">
-                    </p>
-                </form>
-            </td>
-        </tr>
-    </table>
-</body>
->>>>>>> dca3970e2d8af08ee0ae9cfeebf1ab95b3c2b226
+  </body>
 </html>
