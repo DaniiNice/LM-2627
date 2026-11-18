@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario CSS</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: sans-serif;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #recreo {
+            background-color: #eaeaea;
+            font-weight: bold;
+        }
+
+        .ed { background-color: #f8d7da; }
+        .bd { background-color: #e2d9f3; }
+        .tuto { background-color: #95b7ff; }
+        .prog { background-color: #d1ecf1; }
+        .ipe { background-color: #95a3b0; }
+        .ssii { background-color: #d4edda; }
+        .lm { background-color: #ffe5d0; }
+        .sost { background-color: #fce4ec; }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>2026/27</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIÉRCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>08:00 – 09:00</b></td>
+                <td class="ed">ED</td>
+                <td rowspan="2" class="prog">PROG</td>
+                <td rowspan="3" class="ssii">SSII</td>
+                <td rowspan="2" class="lm">LM</td>
+                <td class="ipe">IPE</td>
+            </tr>
+            <tr>
+                <td><b>09:00 – 10:00</b></td>
+                <td rowspan="2" class="bd">BD</td>
+                <td rowspan="2" class="bd">BD</td>
+            </tr>
+            <tr>
+                <td><b>10:00 – 11:00</b></td>
+                <td class="lm">LM</td>
+                <td class="prog">PROG</td>
+            </tr>
+            <tr>
+                <td><b>11:00 – 11:30</b></td>
+                <td colspan="5" id="recreo">RECREO</td>
+            </tr>
+            <tr>
+                <td><b>11:30 – 12:30</b></td>
+                <td class="tuto">TUTO</td>
+                <td class="ipe">IPE</td>
+                <td rowspan="2" class="prog">PROG</td>
+                <td class="prog">PROG</td>
+                <td class="sost">SOST</td>
+            </tr>
+            <tr>
+                <td><b>12:30 – 13:30</b></td>
+                <td rowspan="2" class="prog">PROG</td>
+                <td rowspan="2" class="ed">ED</td>
+                <td rowspan="2" class="bd">BD</td>
+                <td rowspan="2" class="ssii">SSII</td>
+            </tr>
+            <tr>
+                <td><b>13:30 – 14:30</b></td>
+                <td class="ipe">IPE</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test CSS</title>
+    <style>
+        h1 {
+            border: solid blue;
+        }
+
+        p:nth-child(2) {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
+
+        p:nth-child(4) {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        p:nth-child(6) {
+            background-color: aqua;
+        }
+
+        .corregir li {
+            color: red;
+        }
+        
+        #correcta1, #correcta2 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Solución Test CSS</h1>
+    <p>¿Qué significa CSS?</p>
+    <ul class="corregir">
+        <li id="correcta1">Cascading Style Sheets</li>
+        <li>Center Style Steels</li>
+        <li>Calibre Style Sheet</li>
+        <li>Ninguna respuesta es correcta</li>
+    </ul>
+
+    <p>Indica el selector de tipo identificador</p>
+    <ul class="corregir">
+        <li>identificador{color:red;}</li>
+        <li>.identificador{color:red;}</li>
+        <li id="correcta2">#identificador{color:red;}</li>
+        <li>&identificador{color:red;}</li>
+    </ul>
+
+    <p>Sigue los siguientes pasos</p>
+    <ul>
+        <li>Accede a la intranet</li>
+        <li>Entra en la opción de test</li>
+        <li>Descarga el test</li>
+        <li>Envíalo por correo</li>
+    </ul>
+</body>
+</html>

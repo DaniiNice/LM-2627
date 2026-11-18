@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parrafos Estilos</title>
+  <style>
+    p {
+      color: #555;
+    }
+
+    #primero p {
+      color: #336699;
+    }
+
+    a {
+      color: #CC3300;
+    }
+
+    #primero span {
+      background-color: #FFFFCC;
+    }
+
+    span.especial {
+      background-color: #FFCC99;
+      border: 1px solid #FF9900;
+    }
+
+    #negrita {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="primero">
+    <p>
+      Lorem ipsum dolor sit amet, <a href="#">consectetuer adipiscing elit</a>. 
+      Praesent blandit nibh at felis. Sed nec diam in dolor vestibulum aliquet. 
+      Duis ullamcorper, nisi non facilisis molestie, <span>lorem sem aliquam nulla</span>.
+    </p>
+  </div>
+
+  <div class="normal">
+    <p>
+      Phasellus eu velit sed lorem sodales egestas. Ut feugiat. 
+      <a href="#">Donec porttitor</a>, <span id="negrita">magna eu varius luctus</span>, 
+      metus massa tristique massa, in imperdiet est velit vel magna. 
+      Phasellus erat. Duis risus. <a href="#">Maecenas dictum</a>.
+    </p>
+
+    <p>
+      Cum sociis natoque <span class="especial">penatibus et magnis</span> 
+      disparturient montes, nascetur Proin aliquam convallis ante.
+    </p>
+
+    <p>
+      Donec facilisis blandit velit. Vestibulum nisi. 
+      <span class="especial">enim id iaculis congue</span>, orci justo ultrices 
+      tortor, <a href="#">quis lacinia libero in eros</a>.
+    </p>
+  </div>
+</body>
+</html>
