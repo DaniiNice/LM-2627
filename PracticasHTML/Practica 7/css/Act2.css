@@ -1,0 +1,21 @@
+p {
+    font-weight: bold;
+}
+
+#uno:hover {
+    color: green;
+}
+
+#dos:hover {
+    color: red;
+}
+
+#uno:link {
+    color: yellow;
+    font-weight: bold;
+}
+
+#dos:link {
+    color: purple;
+    font-weight: bold;
+}
