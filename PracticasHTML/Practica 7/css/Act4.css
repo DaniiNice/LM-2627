@@ -1,0 +1,65 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid red;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+td {
+    font-weight: bold;
+    color: purple;
+    font-size: 20px;
+}
+
+th:nth-child(odd),
+td:nth-child(odd) {
+    background-color: cyan;
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+    background-color: yellow;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+td:nth-child(1):hover {
+    background-color: black;
+    padding: 30px;
+}
+
+/* Cambio de cursor al pasar */
+td:nth-child(3):hover {
+    cursor: pointer;
+}
+
+/* Efecto al mantener pulsado */
+td:nth-child(3):active {
+    background-color: brown;
+    animation: girar 1s linear infinite;
+}
+
+/* Animación para dar vueltas de 360 grados */
+@keyframes girar {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}

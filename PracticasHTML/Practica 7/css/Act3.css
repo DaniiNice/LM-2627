@@ -1,0 +1,24 @@
+.sin-estilo {
+    list-style-type: none;
+}
+
+.circulos {
+    list-style-type: circle;
+}
+
+.cuadrados {
+    list-style-type: square;
+}
+
+.romanos {
+    list-style-type: lower-roman;
+}
+
+.griegos {
+    list-style-type: lower-greek;
+}
+
+li:hover {
+    border: 1px solid red;
+    color: blue;
+}

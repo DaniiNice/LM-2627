@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 130px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+li a {
+    display: block;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 0;
+    border: 2px
+}
+
+li a:hover, li a:focus {
+    border: 2px solid red;
+}

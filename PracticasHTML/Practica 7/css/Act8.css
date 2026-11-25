@@ -1,0 +1,41 @@
+.contenedor-principal {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.caja {
+  display: inline-block;
+  height: 200px;
+}
+
+.rojo {
+  width: 33.33%;
+  background-color: red;
+}
+
+.verde {
+  width: 33.33%;
+  background-color: green;
+}
+
+.azul {
+  width: 33.33%;
+  background-color: blue;
+}
+
+.negro {
+  width: 100%;
+  background-color: black;
+}
+
+.rosa {
+  width: 50%;
+  background-color: pink;
+}
+
+.naranja {
+  width: 50%;
+  background-color: orange;
+}
